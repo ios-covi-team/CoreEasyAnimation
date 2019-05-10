@@ -11,4 +11,31 @@
 - Just drag the CoreEasyAnimation.framework to your project.
 ![installCoreEasyAnimation](https://user-images.githubusercontent.com/20751724/57520002-d631be80-7346-11e9-9b09-689c584d8755.gif)
 
-- Import the DVDCheckBox module to class you want to use.
+- Import the CoreEasyAnimation module to class you want to use.
+
+# Very very to use 
+## Text Field
+  - If user input wrong password or something like this. You need to animation textField for notify to user know they are wrong.
+             CoreEasyAnimation.animationShakeView(shakeView: yourTextField)
+             
+             ![popupAppear](https://user-images.githubusercontent.com/20751724/57521604-f2cff580-734a-11e9-8ba5-9c0fee02356c.gif)
+## Popup
+  - Appear
+
+        CoreEasyAnimation.animationPopupAppear(yourView: yourPopUp, timeDuration: 0.5) { (finish) in
+            if finish {
+               //Do something
+            
+               
+            }
+        }
+  - Disapper
+  
+          CoreEasyAnimation.animationPopupDisappear(yourView: self.btn, timeDuration: 0.5, completion: { (finished) in
+                        if finished {
+                          //Do something
+                        }
+                    })
+        
+ 
+ ![popupAppear](https://user-images.githubusercontent.com/20751724/57521604-f2cff580-734a-11e9-8ba5-9c0fee02356c.gif)
