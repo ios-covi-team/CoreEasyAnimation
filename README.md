@@ -18,7 +18,7 @@
   - If user input wrong password or something like this. You need to animation textField for notify to user know they are wrong.
              CoreEasyAnimation.animationShakeView(shakeView: yourTextField)
              
-             ![popupAppear](https://user-images.githubusercontent.com/20751724/57521604-f2cff580-734a-11e9-8ba5-9c0fee02356c.gif)
+![popupAppear](https://user-images.githubusercontent.com/20751724/57521604-f2cff580-734a-11e9-8ba5-9c0fee02356c.gif)
 ## Popup
   - Appear
 
