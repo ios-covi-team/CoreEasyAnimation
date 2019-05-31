@@ -13,7 +13,7 @@
 
 - Import the CoreEasyAnimation module to class you want to use.
 
-# Very very to use 
+# Very easy for use 
 ## Text Field
   - If user input wrong password or something like this. You need to animation textField for notify to user know they are wrong.
              CoreEasyAnimation.animationShakeView(shakeView: yourTextField)
